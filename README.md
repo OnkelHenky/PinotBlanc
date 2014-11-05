@@ -1,7 +1,8 @@
 PinotGris
 =========
 
-Converter for SeleniumBuilder's JSON format into Merlot Blueprints 
+Pinot Gris is a command line tool to convert user interaction, from  SeleniumBuilder (firefox plugin), into Merlot Blueprints files.
+Pinot Gris uses JSON format as source.
 
 
 *LICENSE*
