@@ -24,3 +24,31 @@
  * |                                                                          |
  * +--------------------------------------------------------------------------+
  */
+
+/*
+ * +---------------------------------------------------------------------------+
+ * |                              Pinot Gris                                   |
+ * |                           ================                                |
+ * |   Converter for Selenium Builder's JSOn Format into Merlot blueprints     |
+ * +---------------------------------------------------------------------------+
+ *
+ * +---------------------------------------------------------------------------+
+ * | From Wikipedia                                                            |
+ * | ==============                                                            |
+ * |                                                                           |
+ * | Pinot gris is a white wine grape variety of the species Vitis vinifera.   |
+ * | Thought to be a mutant clone of the Pinot noir variety, it normally has   |
+ * | a grayish-blue fruit, accounting for its name                             |
+ * | (gris meaning "gray" in French) but the grapes can have a brownish pink   |
+ * | to black and even white appearance. The word pinot, which comes from the  |
+ * | word meaning "pine cone" in French, could have been given to it because   |
+ * | the grapes grow in small pine cone-shaped clusters. The wines produced    |
+ * | from this grape also vary in color from a deep golden yellow to copper    |
+ * | and even a light shade of pink                                            |
+ * | The clone of Pinot gris grown in Italy is known as Pinot grigio.          |
+ * |                                                                           |
+ * | Source: http://en.wikipedia.org/wiki/Pinot_gris                           |
+ * +---------------------------------------------------------------------------+
+ */
+
+
