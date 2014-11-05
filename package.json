@@ -10,5 +10,9 @@
     "merlot",
     "converter",
     "blueprint"
-  ]
+  ],
+  "dependencies": {
+    "cli-args": "^1.2.1",
+    "jsonfile": "^2.0.0"
+  }
 }
