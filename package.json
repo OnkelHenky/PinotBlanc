@@ -4,7 +4,7 @@
   "description": "Converter for SeleniumBuilder's JSON format into Merlot Blueprints ",
   "author": "Alexander Henka,  Alexander.Henka@googlemail.com",
   "license": "Apache 2.0",
-  "main": "./core/index.js",
+  "main": "./core/pinotgris.js",
   "keywords": [
     "selenium",
     "merlot",

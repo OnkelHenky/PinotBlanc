@@ -52,3 +52,46 @@
  */
 
 
+var args = require('cli-args')(process.argv.slice(2));
+var jf   = require('jsonfile');
+var util = require('util');
+var path =  path = require('path');
+
+
+console.dir(args);
+console.dir(args._);
+
+
+switch(true){
+    case (args._ && typeof args._[0] === "string"):
+        convertFile(args._[0]);
+        break;
+    default :
+        console.log('Please use parameter, e.g., "node pinotgris.js ../path/to/file.json" ');
+        process.exit(1);
+        break;
+
+
+}
+
+function convertFile(pathToFile){
+
+
+
+    var path_to_json_file = path.join(__dirname, pathToFile);
+
+    console.dir("Location of JSON file = "+ path_to_json_file);
+
+    jsonData = jf.readFileSync(path_to_json_file);
+
+
+    console.log(util.inspect(jsonData));
+
+    console.log(util.inspect(jsonData.steps[1]));
+
+    console.log('typeof jsonData.steps = '+ typeof  jsonData.steps);
+
+
+}
+
+
